@@ -1,0 +1,5 @@
+C:\Users\bryuh\RiderProjects\Homework8\Homework8\obj\Debug\Homework8.csproj.AssemblyReference.cache
+C:\Users\bryuh\RiderProjects\Homework8\Homework8\obj\Debug\Homework8.csproj.SuggestedBindingRedirects.cache
+C:\Users\bryuh\RiderProjects\Homework8\Homework8\obj\Debug\Homework8.Properties.Resources.resources
+C:\Users\bryuh\RiderProjects\Homework8\Homework8\obj\Debug\Homework8.csproj.GenerateResource.cache
+C:\Users\bryuh\RiderProjects\Homework8\Homework8\obj\Debug\Homework8.csproj.CoreCompileInputs.cache
