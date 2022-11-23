@@ -1,4 +1,4 @@
-﻿+using System;
+﻿using System;
 
 //Який принцип S.O.L.I.D. порушено? Виправте!
 
@@ -16,12 +16,18 @@ class Email
 
 class EmailSender
 {
+    private LogSender ls = new LogSender();
     public void Send(Email email)
     {
         // ... sending...
-        writeLogs(email);
+        
+        ls.WriteLogs(email);
     }
-    private void writeLogs(Email email)
+}
+
+class LogSender
+{
+    public void WriteLogs(Email email)
     {
         Console.WriteLine("Email from '" + email.From + "' to '" + email.To + "' was send");
     }

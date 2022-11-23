@@ -34,19 +34,32 @@ namespace Solid1
         public void AddItem(Item item) {/*...*/}
         public void DeleteItem(Item item) {/*...*/}
 
-        public void PrintOrder() {/*...*/}
-        public void ShowOrder() {/*...*/}
+        
+    }
 
+    class OrderRepository
+    {
         public void Load() {/*...*/}
         public void Save() {/*...*/}
         public void Update() {/*...*/}
         public void Delete() {/*...*/}
     }
 
+    class PrintManager
+    {
+        public void PrintOrder() {/*...*/}
+    }
+
+    class ShowManager
+    {
+        public void ShowOrder() {/*...*/}
+    }
+
     class Program
     {
         static void Main()
         {
+            
         }
     }
 }
